@@ -26,8 +26,8 @@ public class Blobconversion {
         try {
             
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            String connectionUrl = "jdbc:sqlserver://localhost:1433;" +
-            "databaseName=Book_Of_Faces;user=sa;password=Summer2012;";
+            String connectionUrl = "jdbc:sqlserver://;" +
+            "databaseName=;user=;password=;";
             con = DriverManager.getConnection(connectionUrl);
             con.setAutoCommit(false);
             System.out.println("Connected.");
